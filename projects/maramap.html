@@ -132,10 +132,12 @@
     </section>
 
     <div class="album py-5 bg-body-tertiary">
-        <div class="container text-center">
+        <div class="container col-lg-7">
             <p>In the summer of 2021, I joined Dr. Xiaowei Yang's computer network research group as part of Duke's CS+ program. There, I worked alongside her and PhD candidate Shane Zhang to study anycast networks and how their configuration impacts their performance, using data from RIPE Atlas and Routeviews on the 13 root DNS servers for comparison.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/OfAtv4a3Bp4?si=VfxTxCgfU3L5Y8x1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p class="text-body-secondary">The presentation my partner and I gave for the CS+ program.</p>
+            <div class="text-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OfAtv4a3Bp4?si=VfxTxCgfU3L5Y8x1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p class="text-body-secondary">The presentation my partner and I gave for the CS+ program.</p>
+            </div>  
             <p>I continued working with the team throughout my sophomore year, expanding our research to investigate more configuration parameters. During this time, I drew from academic literature and industry knowledge to develop new data processing methods that allowed us to look into special network configurations. One such method was moving the endpoint of our traceroute analysis to well-known “anchor” AS numbers, which removed a roadblock we ran into analyzing root servers A and J (both operated by Verisign, these root servers' IP addresses are advertised from a multitude of ASes but are all funneled through AS7342, which became their anchor AS number).</p>
             <p>In my junior year, I became a mentor for the ReLCS program that Dr. Yang, Shane and PhD candidate Shihan Lin were running, which was aimed at getting high schoolers into computer science research. Utilizing what I had learned from CS+ and my independent studies sophomore year, I guided the students toward our end goal of building an Internet topology visualization web app, which would later be named MaraMap.</p>
             <p>MaraMap allows users to enter in their own traceroute outputs and see a map visualization of them. Each hop in the provided traceroutes is indicated with a pinpoint and is connected with lines to other adjacent hops. Clicking on a pinpoint shows information about the node, including the IP addresses and AS numbers associated with each of its interfaces. The location of each node on the map is determined using various techniques as opposed to simply looking it up in the RIR Whois databases.</p>
