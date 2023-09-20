@@ -126,14 +126,19 @@
         <div class="col-lg-6 col-md-8 mx-auto">
             <h1 class="fw-light">Guardpost</h1>
             <span class="badge bg-primary-subtle border border-primary-subtle text-primary-emphasis rounded-pill mb-2">Ongoing • Since June 2023</span>
-            <p class="lead text-body-secondary">Node.js • MongoDB • HTML • CSS • JavaScript </p>
+            <p class="lead text-body-secondary">Node.js • MongoDB • HTML • CSS • JavaScript</p>
         </div>
         </div>
     </section>
 
     <div class="album py-5 bg-body-tertiary">
-        <div class="container">
-
+        <div class="container col-lg-7">
+            <p><a href="https://www.wireguard.com/">WireGuard</a>, an open-source VPN protocol based on modern cryptography standards, debuted in 2015 and was eventually added into the Linux kernel in March of 2020. While WireGuard outperforms all other VPN protocols, it can be difficult to set up for new users due to its reliance on terminal commands and configuration files. Moreover, remote management of these interfaces necessitates SSHing into the host computer and making any changes via the shell.</p>
+            <p>I am creating Guardpost as a way to reduce the barrier of entry to WireGuard for new users as well as to make remote management of it easier. Guardpost is an open-source web app that anyone can deploy on their own server. The backend is built on Node.js with MongoDB for database management, and the frontend is constructed with Bootstrap elements.</p>
+            <p>Guardpost consists of users, groups, networks and interfaces. Users, which may be a part of one or more groups for permission management, can log into the Guardpost website and/or perform queries via the API. Users can add interfaces for each of their devices to a network, which is represented by a CIDR range (e.g., 10.0.0.0/24).</p>
+            <p>Interfaces have the option to be remotely managed, in which case any change made to their network (e.g., the addition of a new interface) will be pushed to them over SSH. This reduces the work users have to do to add interfaces for new devices, change their public key, etc.</p>
+            <p>Networks have the option to enable dynamic IP address assignment, which allows users to request an IP address for their device's interface on demand via an API call. The user's WireGuard interface queries the API URL with an address request using a command like curl in the pre-up stage, and Guardpost returns an address along with other information like recommended DNS servers. When the user disables the interface, a release request is sent to the API in the post-down stage. This feature allows users to bypass interacting with the Guardpost website altogether.</p>
+            <p>Guardpost is still in its infancy, but you can view my progress on its <a href="https://github.com/ritcheydominic/guardpost-server">GitHub page</a>. There you can also view a list of features that I want to add before its first formal release.</p>
         </div>
     </div>
 
