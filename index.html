@@ -29,6 +29,16 @@
         <meta name="theme-color" content="#ffffff">
 
         <style>
+        .home-page-container {
+            background-image: url("./assets/home-page-header.jpg");
+            background-size: cover;
+            background-position: 0% 25%;
+        }
+        
+        .home-page-text-bg {
+            background-color: rgba(0,0,0,.6);
+        }
+
         .bd-placeholder-img {
             font-size: 1.125rem;
             text-anchor: middle;
@@ -131,14 +141,16 @@
 
     <main>
 
-    <section class="py-5 text-center container">
-        <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">Hi, it's Dominic!</h1>
-            <p class="lead text-body-secondary">I'm a senior at Duke studying ECE and CS. Next year, I will be completing my master's degree in ECE as part of Duke's 4+1 program. Take a look at my current and past projects below!</p>
-        </div>
-        </div>
-    </section>
+    <div class="home-page-container">
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto home-page-text-bg p-2 rounded-4">
+                <h1 class="fw-light mt-2">Hi, it's Dominic!</h1>
+                <p class="lead text-body">I'm a senior at Duke studying ECE and CS. After graduating, I will be pursuing a master's degree in ECE as part of Duke's 4+1 program. Take a look at my current and past projects below!</p>
+            </div>
+            </div>
+        </section>
+    </div>
 
     <div class="album py-5 bg-body-tertiary">
         <div class="container">
@@ -179,6 +191,24 @@
                         </div>
                     </div>
                     </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Picture coming soon" preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Picture coming soon</title>
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+                                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Picture coming soon</text>
+                            </svg>
+                            <div class="card-body">
+                                <h4 class="card-title">Red Light, Green Light</h4>
+                            <p class="card-text">As an homage to the Netflix series Squid Game, my product design class team is building a robot that allows groups to play red light, green light.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="./projects/red-light-green-light.html">Learn more</a>
+                                <span class="badge bg-info-subtle border border-info-subtle text-info-emphasis rounded-pill">In Progress</span>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
 
             <div class="col">
             <div class="card shadow-sm">
@@ -287,6 +317,10 @@
             </div>
         </div>
         </div>
+        <div class="container text-center mt-5">
+            <p class="text-body-secondary">This page's header picture was taken by my brother, <a href="https://zachritcheyphoto.com/">Zach</a>.</p>
+        </div>
+        
     </div>
 
     </main>
