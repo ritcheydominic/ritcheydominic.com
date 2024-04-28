@@ -5,11 +5,11 @@
 | ---- | -------- |
 | Compress images | ⚠️ To Do |
 | Redesign header | ⚠️ To Do |
-| Redesign home page | ⚠️ To Do |
-| Create miscellaneous page | ⚠️ To Do |
+| Redesign home page | 🌀 In Progress |
+| Create miscellaneous page | ✅ Done |
 | Set up redirects | ⚠️ To Do |
 | Finish portfolio entry for Arm Car | ⚠️ To Do |
 | Finish portfolio entry for Coniferous Caroler | ⚠️ To Do |
 | Finish portfolio entry for Red Light, Green Light | ⚠️ To Do |
-| Create portfolio entry for TDAS | ⚠️ To Do |
-| Create portfolio entry for Smart Parking Spaces | ⚠️ To Do |
+| Create portfolio entry for TDAS | 🌀 In Progress |
+| Create portfolio entry for Smart Parking Spaces | 🌀 In Progress |
