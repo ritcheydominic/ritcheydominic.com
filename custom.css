@@ -1,0 +1,44 @@
+.badge-frontend {
+    background-color: var(--bs-red) !important;
+    color: var(--bs-body-color) !important;
+}
+
+.badge-backend {
+    background-color: var(--bs-orange) !important;
+    color: var(--bs-body-bg) !important;
+}
+
+.badge-embedded {
+    background-color: var(--bs-yellow) !important;
+    color: var(--bs-body-bg) !important;
+}
+
+.badge-networking {
+    background-color: var(--bs-green) !important;
+    color: var(--bs-body-color) !important;
+}
+
+.badge-circuit-design {
+    background-color: var(--bs-blue) !important;
+    color: var(--bs-body-color) !important;
+}
+
+.badge-digital-design {
+    background-color: var(--bs-purple) !important;
+    color: var(--bs-body-color) !important;
+}
+
+.badge-robotics {
+    background-color: var(--bs-pink) !important;
+    color: var(--bs-body-color) !important;
+}
+
+.badge-cv {
+    background-color: var(--bs-cyan) !important;
+    color: var(--bs-body-bg) !important;
+}
+
+.badge-security {
+    background-color: var(--bs-gray) !important;
+    color: var(--bs-body-color) !important;
+}
