@@ -14,4 +14,5 @@
 | Create portfolio entry for Smart Parking Spaces | ⚠️ To Do |
 | Create portfolio entry for DominNet | ⚠️ To Do |
 | Create portfolio entry for ptrgen | ⚠️ To Do |
+| Create portfolio entry for 218-DOM-INIC | ⚠️ To Do |
 | Compress images | ⚠️ To Do |
