@@ -10,12 +10,12 @@
 
             gtag('config', 'G-B1FYVFCK1L');
         </script>
-        
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="Dominic Ritchey">
-        <title>Dominic Ritchey • Arm-Controlled Toy Car</title>
+        <title>Dominic Ritchey • DominNet</title>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
@@ -134,17 +134,17 @@
     <section class="py-5 text-center container">
         <div class="row py-lg-4">
         <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">Arm-Controlled Toy Car</h1>
-            <span class="badge bg-success-subtle border border-success-subtle text-success-emphasis rounded-pill mb-2">Completed • September - December 2023</span>
-            <p class="lead text-body-secondary mb-2">Bluetooth • Sensor Fusion • Collision Avoidance • Embedded Systems</p>
-            <p class="lead text-body-secondary mb-2">Collaborators: Claire Hagan, Alice Xu</p>
+            <h1 class="fw-light">DominNet</h1>
+            <span class="badge bg-primary-subtle border border-primary-subtle text-primary-emphasis rounded-pill mb-2">Ongoing • Since May 2022</span>
+            <p class="lead text-body-secondary mb-2">BGP • IPv4/v6 • BIRD • Bash • Linux Server Administration</p>
         </div>
         </div>
     </section>
 
     <div class="album py-5 bg-body-tertiary">
-        <div class="container text-center col-lg-7">
-            <p>Information coming soon</p>
+        <div class="container col-lg-7">
+            <p>In May of 2022, the RIPE NCC assigned me <a href="https://bgp.he.net/AS208078">AS208078</a> along with 2 IPv6 ranges (2a05:b0c6:5500::/40 and 2a06:1287:3800::/40). I began advertising this IP space using BIRD on Vultr cloud compute instances I already had in use for my family's mail server and other projects. Portions of these IPv6 ranges are advertised as an anycast network while others are separate unicast networks for each instance. I'm currently using this IP space to create an anycast WireGuard VPN where users are connected to and assigned IP addresses in the node closest to them. This utilizes <a href="./guardpost.html">Guardpost</a> to manage each node's WireGuard interfaces.</p>
+            <p>My future plans for this space include setting up a NAT64/464XLAT translator network using this (and IPv4) space to research how this transitional solution will fare as IPv6 utilization rises and IPv4 space becomes scarcer. I will also try and test newer solutions as they are published.</p>
         </div>
     </div>
 
