@@ -49,7 +49,17 @@
     background-position: 0% 25%;
 }
 
+.miscellaneous-page-container {
+    background-image: url("./assets/IMG_2116.jpeg");
+    background-size: cover;
+    background-position: 0% 60%;
+}
+
 .home-page-text-bg {
+    background-color: rgba(26,29,32,.75);
+}
+
+.miscellaneous-page-text-bg {
     background-color: rgba(26,29,32,.75);
 }
 
