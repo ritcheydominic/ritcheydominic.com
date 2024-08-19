@@ -1,4 +1,4 @@
-RedirectEngine On
+RewriteEngine on
 Redirect 301 /projects/fpga-fire-alarm-control-panel.html /projects/fpga-facp.html
 Redirect 301 /projects/as208078.html /projects/dominnet.html
 Redirect 301 /projects/arm-controlled-toy-car.html /projects/arm-car.html
