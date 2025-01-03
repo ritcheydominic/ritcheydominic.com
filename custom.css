@@ -50,9 +50,15 @@
 }
 
 .miscellaneous-page-container {
-    background-image: url("./assets/IMG_2116.jpeg");
+    background-image: url("./assets/IMG_0666.jpeg");
     background-size: cover;
-    background-position: 0% 60%;
+    background-position: 0% 40%;
+}
+
+.blog-page-container {
+    background-image: url("./assets/IMG_0595.jpeg");
+    background-size: cover;
+    background-position: 0% 50%;
 }
 
 .home-page-text-bg {
@@ -60,6 +66,10 @@
 }
 
 .miscellaneous-page-text-bg {
+    background-color: rgba(26,29,32,.75);
+}
+
+.blog-page-text-bg {
     background-color: rgba(26,29,32,.75);
 }
 
